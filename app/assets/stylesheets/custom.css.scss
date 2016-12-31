@@ -71,17 +71,19 @@
     }
 }
 
-.jumbotron {
+.hero {
+  margin-top: -20px;
+    height: 350px;
     text-align: center;
-    background-color: blue;
+    background-image: image-url("bg.jpg");
     background-size: cover;
+    background-position-y: 50%;
+    background-position-x: 50%;
     color: #fff;
     font-family: 'Helvetica Neue' !important;
     font-stretch: expanded;
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-left: 15px;
-    margin-right: 15px;
     text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
     /*
 
@@ -107,4 +109,12 @@ font-size: 30px !important;
 .listing {
     list-style: none;
     padding-left: 0;
+}
+
+.logo {
+height: 60px;
+width: auto;
+}
+.navbar-brand {
+  padding: 0px;
 }
